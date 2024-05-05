@@ -11,4 +11,6 @@ Shoutout to Cumbie, had a lot of fun. You were a fun instructor and I am excited
 The author is me! Reed McDowra! 
 
 ## Questions and Concerns?
-Considering the only concerns I'll have will be from Cumbie, I think I am all good here!
+Considering the only concerns I'll have will be from the man that can change my grade. I think I am all good here!
+
+PEACE 🖖 

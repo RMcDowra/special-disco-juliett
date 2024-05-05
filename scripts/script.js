@@ -1,7 +1,5 @@
 $( document ).ready(function() {
     
-    // var input = document.getElementById('userText').value.toUpperCase();
-    // var output = document.getElementById('usrOutput');
 
     var phoneticAlfa ={
         "A":"Alfa",
@@ -34,8 +32,7 @@ $( document ).ready(function() {
 
     var result =""; 
     // Grab input from textbox
-    //split up user text into an array
-    //declare string as specific array to loop through
+    
 
     
 
@@ -46,9 +43,9 @@ $("#submitButton").click(function () {
 
         $.each(userText, (index, value)=> {
             console.log(index, value);
-            var letter = ''; //initialize aas empty
+            var letter = ''; //initialize as empty
             
-           // for (var i=0; i < userText.length; i++){
+           
             
                 letter = userText[index];
 
@@ -59,17 +56,6 @@ $("#submitButton").click(function () {
                 result += phoneticAlfa[letter] + ' ';
                 console.log('result', result);
 
-            // if(phoneticAlfa[letter]){
-
-            //     console.log('are we grabbing correct thing from our data thingy?', phoneticAlfa.letter); 
-                
-            //   result += phoneticAlfa[letter] + ' ';
-            //     break
-            // }
-            // else{
-            //   result += letter + ' (Not in NATO alphabet) ';
-            // }
-         // }
           
           }); //closes .each()   
 

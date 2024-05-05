@@ -37,7 +37,7 @@ $( document ).ready(function() {
     
 
 $("#submitButton").click(function () {
-        //compare value. with a stored object...
+        //compare value with a stored object...
 
         let userText = $('#userText').val().toUpperCase().split("");
 
@@ -51,7 +51,7 @@ $("#submitButton").click(function () {
 
                 console.log('letter var = ', letter); //check what we got from array
                 
-                console.log('are we grabbing correct thing from our data thingy?', phoneticAlfa[letter]); 
+                console.log('grabbing the correct data??', phoneticAlfa[letter]); 
                 
                 result += phoneticAlfa[letter] + ' ';
                 console.log('result', result);
